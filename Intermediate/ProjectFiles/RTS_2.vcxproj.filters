@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RTS_2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DCF89DD9-3098-456F-80A3-7BFED2C9B083}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RTS_2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RTS_2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{590D0E72-E562-4D40-8F26-AD2443686268}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RTS_2">
+      <UniqueIdentifier>{1055508A-06BC-46BD-985E-A2955BBA16BA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RTS_2\RTS_2.Build.cs">
+      <Filter>Source\RTS_2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RTS_2\RTS_2.cpp">
+      <Filter>Source\RTS_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_2\RTS_2.h">
+      <Filter>Source\RTS_2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RTS_2\RTS_2GameMode.cpp">
+      <Filter>Source\RTS_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_2\RTS_2GameMode.h">
+      <Filter>Source\RTS_2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RTS_2\CamActor.h">
+      <Filter>Source\RTS_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_2\RTSPawn.h">
+      <Filter>Source\RTS_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_2\CamPlayerController.h">
+      <Filter>Source\RTS_2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RTS_2\CamActor.cpp">
+      <Filter>Source\RTS_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_2\RTSPawn.cpp">
+      <Filter>Source\RTS_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_2\CamPlayerController.cpp">
+      <Filter>Source\RTS_2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
